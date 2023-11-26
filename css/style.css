@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+span{
+    color: #48D1CC;
+}
+
+header nav .navbar{
+    width: 100%;
+    position: fixed;
+    background: rgb(0,69,92);
+    background: linear-gradient(90deg, rgba(0,69,92,1) 0%, rgba(35,140,131,1) 50%, rgba(0,69,92,1) 100%);
+} 
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,69,92);
+    background: linear-gradient(90deg, rgba(0,69,92,1) 0%, rgba(35,140,131,1) 50%, rgba(0,69,92,1) 100%);
+}
+
+ul li{
+    padding: 10px;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+
+#text-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#img-home{
+    width: 20em;
+    border-radius: 500px;
+    box-shadow: 16px 14px 20px #000;
+}
+
+#text-about{
+    text-align:justify;
+}
+
+#projects{
+    padding: 100px 0;
+}
+
+#project{
+    border-radius: 50px;
+    margin: 10px 0;
+}
+
+footer{
+    width: 100%;
+    min-height: 600px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,34,41,1) 50%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
